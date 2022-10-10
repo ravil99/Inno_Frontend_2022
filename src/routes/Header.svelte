@@ -1,15 +1,16 @@
 <script lang="ts">
     import { page } from '$app/stores';
+	import { base } from '$app/paths';
 </script>
 
 <header>
     <nav>
         <ul>
             <li class:active={$page.url.pathname === '/'}>
-                <a href="/">Home</a>
+                <a href="{base}/">Home</a>
             </li>
             <li class:active={$page.url.pathname === '/hobby'}>
-                <a href="/hobby">Hobby</a>
+                <a href="{base}/hobby">Hobby</a>
             </li> 
         </ul>
     </nav>
