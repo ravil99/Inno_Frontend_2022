@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/sample_app',
+			base: dev ? '' : '/sample-app',
 		  },
 		},
 };

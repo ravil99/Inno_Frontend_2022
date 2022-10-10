@@ -3,5 +3,5 @@
     import OtherInterests from '$lib/Other_interests.svelte';
   </script>
   
-  <Profile></Profile>
-  <OtherInterests></OtherInterests>
+  <Profile />
+  <OtherInterests />

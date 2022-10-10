@@ -2,4 +2,4 @@
     import Hobbies from "$lib/Hobbies.svelte";
   </script>
   
-  <Hobbies></Hobbies>
+  <Hobbies />
