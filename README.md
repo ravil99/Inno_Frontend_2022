@@ -15,6 +15,6 @@
 1) The same project was reimplemented using Svelte framework.
 
 ## Assignment 5
-1) This project was extended using Svelte Kit. How site has 2 routes instead of 1. And site can be easily extended just by adding new Svelte components folders into "routes" folder. 
+1) This project was extended using Svelte Kit. Now site has 2 routes instead of 1. And site can be easily extended just by adding new Svelte components folders into "routes" folder. 
 2) Website was deployed on GitHub Pages using Github Actions - https://ravil99.github.io/Svelte_kit_homework/
 
