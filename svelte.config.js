@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/sample-app',
+			base: dev ? '' : '/Svelte_kit_homework',
 		  },
 		},
 };
