@@ -1,38 +1,20 @@
-# create-svelte
+# Inno_Frontend_2022
+## Repository for assignments of "Frontend Web Development" in Innopolis University. 2022
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Assignment 2
 
-## Creating a project
+1) CV website from previous assignment was changed into **personal website**. Content of **personal website** will be updated according to next assigments. 
+2) Flexbox and grid CSS elements were used in previous assignment, so they remain the same.
+3) **Cocktail database API** - https://www.thecocktaildb.com/api.php was used to fetch the recipe of my favourite cocktail ! 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Assignment 3
+1) main.js was rewritten to TypeScript (now it's main.ts). There are not a single type as any. Strict mode was used.
+2) Rollup bundler was used to generate minified single .js file.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Assignment 4
+1) The same project was reimplemented using Svelte framework.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Assignment 5
+1) This project was extended using Svelte Kit. How site has 2 routes instead of 1. And site can be easily extended just by adding new Svelte components folders into "routes" folder. 
+2) Website was deployed on GitHub Pages using Github Actions - https://ravil99.github.io/Svelte_kit_homework/
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
