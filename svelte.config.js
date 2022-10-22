@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/Svelte_kit_homework',
+			base: dev ? '' : '/Inno_Frontend_2022',
 		  },
 		},
 };
