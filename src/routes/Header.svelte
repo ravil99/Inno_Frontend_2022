@@ -1,29 +1,28 @@
 <script lang="ts">
-    import { page } from '$app/stores';
+	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 </script>
 
 <header>
-    <nav>
-        <ul>
-            <li class:active={$page.url.pathname === '/'}>
-                <a href="{base}/">Home</a>
-            </li>
-            <li class:active={$page.url.pathname === '/hobby'}>
-                <a href="{base}/hobby">Hobby</a>
-            </li> 
-        </ul>
-    </nav>
+	<nav>
+		<ul>
+			<li class:active={$page.url.pathname === '/'}>
+				<a href="{base}/">Home</a>
+			</li>
+			<li class:active={$page.url.pathname === '/hobby'}>
+				<a href="{base}/hobby">Hobby</a>
+			</li>
+		</ul>
+	</nav>
 </header>
 
 <style>
-
-    nav {
+	nav {
 		display: flex;
 		justify-content: center;
 	}
 
-    ul {
+	ul {
 		position: relative;
 		padding: 0;
 		margin: 0;
@@ -41,7 +40,7 @@
 		height: 100%;
 	}
 
-    li.active::before {
+	li.active::before {
 		--size: 6px;
 		content: '';
 		width: 0;
@@ -53,7 +52,7 @@
 		border-top: var(--size) solid var(--color-theme-1);
 	}
 
-    nav a {
+	nav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
@@ -70,5 +69,4 @@
 	a:hover {
 		color: var(--color-theme-1);
 	}
-
 </style>

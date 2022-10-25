@@ -11,10 +11,13 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
+
+		// Uncomment "paths" below to HAVE A CORRECT BUILD
+
 		paths: {
 			base: dev ? '' : '/Inno_Frontend_2022',
-		  },
 		},
+	},
 };
 
 export default config;
